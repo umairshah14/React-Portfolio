@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Gallery from "./components/Gallery";
-import Project from "./components/Project";
+import Project from "./components/Extra Page";
 import Contact from "./components/Contact";
 
 function App() {

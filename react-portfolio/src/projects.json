@@ -1,18 +1,9 @@
-
-
 [
-    {
-        "id" : 1,
-        "name" : "README Generator",
-        "description" : "Generate a readme file through a series of terminal questions",
-        "deployed" : "",
-        "githubRepo" : "https://github.com/umairshah14/README-Generator",
-        "image" : "https://raw.githubusercontent.com/umairshah14/README-Generator/main/assets/images/Screenshot%202023-02-20%20at%2016.31.00.png"
-    },
     {
         "id" : 2,
         "name" : "Weather Forecast Webapp",
         "description" : "A web app that returns weather information and a 5 day forecast from the Openweather API",
+        "detailedDescription" : "This is a weather forecast website. When you type in a city, you receive information for the current day forecast as well as the weather forecast for the next five days. If the city is not recognised, then nothing shows up. Every time a city is searched a button is generated on the side also. All information is pulled from the OpenWeather API",
         "deployed" : "https://umairshah14.github.io/Weather-Dashboard/",
         "githubRepo" : "https://github.com/umairshah14/Weather-Dashboard",
         "image" : "https://raw.githubusercontent.com/umairshah14/Weather-Dashboard/main/Screenshot%202023-01-31%20at%2022.40.35.png"
@@ -21,6 +12,7 @@
         "id" : 3,
         "name" : "Premier League Table",
         "description" : "The up to date premier league table with team information pulled from an API",
+        "detailedDescription" : "This app is a portal for finding information about the English premier league. The purpose of this app is to provide a destination for anybody looking for information about the English premier league. The purpose of building this app was a first foray into a group project, where teamwork was essential to the success of the project. The app has 2 API'S which pulls in information that is requested by the user. The app makes use of modals rather than alerts to provide info.",
         "deployed" : "https://umairshah14.github.io/Premier-League-Info/",
         "githubRepo" : "https://github.com/umairshah14/Premier-League-Info",
         "image" : "https://raw.githubusercontent.com/umairshah14/Premier-League-Info/main/assets/images/Screenshot%202023-02-07%20at%2018.28.54.png"
@@ -29,6 +21,7 @@
         "id" : 4,
         "name" : "Coding Quiz Game",
         "description" : "A quiz of coding questions that has a timer and a high-score page",
+        "detailedDescription" : "a Multiple-Choice Quiz which presents a series of multiple choice questions and then displays your score on a leaderboard at the end. The timer is based off the amount of questions in the game allowing approximately 5 seconds per question. If the player gets a question wrong, then 10 seconds are deducted from the timer, if the timer reaches 0 then the game is over and the player is prompted to enter their name so that they can see their score on the leaderboard",
         "deployed" : "https://umairshah14.github.io/Multiple-Choice-Quiz/",
         "githubRepo" : "https://github.com/umairshah14/Multiple-Choice-Quiz",
         "image" : "https://raw.githubusercontent.com/umairshah14/Multiple-Choice-Quiz/main/assets/images/Screenshot%202023-02-04%20at%2016.59.05.png"
@@ -37,6 +30,7 @@
         "id" : 5,
         "name" : "Password Generator",
         "description" : "A website that generates a secure password based off a series of prompt questions",
+        "detailedDescription" : "This project is a Password Generator which takes in parameters from the user through a series of prompts. Upon pressing 'Generate Password', based off the user's answers to the prompt questions, a random password will be generated. If the user would like to generate another password then pressing 'Generate Password' will generate a new password",
         "deployed" : "https://umairshah14.github.io/Password-Generator/",
         "githubRepo" : "https://github.com/umairshah14/Password-Generator",
         "image" : "https://raw.githubusercontent.com/umairshah14/Password-Generator/main/Screenshot%202023-01-11%20at%2019.54.33.png"
@@ -45,8 +39,18 @@
         "id" : 6,
         "name" : "Work Day Scheduler",
         "description" : "A website that lets you plan your work day from 9-5, add and remove tasks for each work hour",
+        "detailedDescription" : "This is a Workday Scheduler which presents all the hours of a working day from 9 to 5 and then allows the user to input text into each time slot and save it in order to keep a schedule of their tasks. Depending on the time of day, the slots will either appear as grey, red or green indicating that the timeslot has either passed, is the current hour you're in right now or that the hour is in the future.",
         "deployed" : "https://umairshah14.github.io/Daily-Planner-App/",
         "githubRepo" : "https://github.com/umairshah14/Daily-Planner-App",
         "image" : "https://raw.githubusercontent.com/umairshah14/Daily-Planner-App/main/assets/images/Screenshot%202023-01-23%20at%2002.52.29.png"
+    },
+    {
+        "id" : 7,
+        "name" : "README Generator",
+        "description" : "Generate a readme file through a series of terminal questions",
+        "detailedDescription" : "This is a README generator, to run the README generator you simply run the following command: node index.js once you've opened the repository in your terminal. Once its run, it will ask a series of questions in your terminal, the answers recieved will then be displayed in a new README file that appears in the 'dist' folder",
+        "deployed" : "",
+        "githubRepo" : "https://github.com/umairshah14/README-Generator",
+        "image" : "https://raw.githubusercontent.com/umairshah14/README-Generator/main/assets/images/Screenshot%202023-02-20%20at%2016.31.00.png"
     }
 ]
