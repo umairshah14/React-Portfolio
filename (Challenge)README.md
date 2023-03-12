@@ -22,8 +22,8 @@ the default bootstrap theme or an unstyled HTML site.
 ### Base Requirements
 
 * Technologies that must be used:
-  * [OK ] React
-  * [OK ] Navigation with `React Router`, dynamic rendering, or another third part router
+  * [OK] React
+  * [OK] Navigation with `React Router`, dynamic rendering, or another third part router
 * Your portfolio **must contain** the following information:
   * [ ] Your name - HOME PAGE
   * [ ] Links to your:
@@ -42,39 +42,39 @@ the default bootstrap theme or an unstyled HTML site.
 ### Required Components
 
 * At a minium, your portfolio must render these 6 components:
-  1. [OK ] App
-  2. [OK ] Header
-  4. [ ] Home
-  5. [ ] Project Gallery
-  6. [ ] Project
+  1. [OK] App
+  2. [OK] Header
+  4. [OK] Home
+  5. [OK] Project Gallery
+  6. [OK] Project
   7. [ ] Contact
 
 ### Required Component Content
-* [OK] App:
+* [] App:
   * [OK] Must be your top level component and render all necessary children components
-* [OK] Header:
+* [] Header:
    * [OK] Must be rendered across the entire site
    * [OK] Must Contain a Navbar
-* [OK] Project Gallery:
+* [] Project Gallery:
   * [OK] Must render dynamically 6 instances of the Project component
     * [OK] Be sure to store your project data in a JSON file and import it into your project
 * [ ] Project:
-   * [ ] Must be a reusable component that ingests JSON data as a props and renders a single instance for each project.
-   * [ ] Must utilize router props to properly render the right project based on user selection
-   * [ ] Must render the following info:
-     * [ ] Project title
-     * [ ] Link to the deployed version
-     * [ ] Link to the GitHub repository
-     * [ ] GIF or screenshot of the deployed application
+   * [OK] Must be a reusable component that ingests JSON data as a props and renders a single instance for each project.
+   * [OK] Must utilize router props to properly render the right project based on user selection
+   * [] Must render the following info:
+     * [OK] Project title
+     * [OK] Link to the deployed version
+     * [OK] Link to the GitHub repository
+     * [OK] GIF or screenshot of the deployed application
 * [ ] Contact:
   * [ ] Must have contact information
   * [ ] Have a contact form for handling events
 * [ ] Home:
   * This should be a welcome landing page that contains:
-     * [ ] Your Name
-     * [ ] A Headshot of you
-     * [ ] Your brand statement
-     * [ ] Some indication that this is your portfolio site
+     * [OK] Your Name
+     * [OK] A Headshot of you
+     * [OK] Your brand statement
+     * [OK] Some indication that this is your portfolio site
 
 ### Updated Social Media Presence
 #### LinkedIn

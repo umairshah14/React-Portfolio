@@ -7,6 +7,8 @@ import Home from "./components/Home";
 import Gallery from "./components/Gallery";
 import Project from "./components/Extra Page";
 import Contact from "./components/Contact";
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function App() {
   return (
