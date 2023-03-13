@@ -19,7 +19,7 @@ export default function FooterAndContact() {
         <section style={{justifyContent:"center", }}>
       <h1 style={{color:"white"}} className="pt-2">Contact Me</h1>
 
-          <ContactMeForm ></ContactMeForm>
+          <ContactMeForm></ContactMeForm>
           <MDBBtn
             rippleColor="dark"
             color="link"

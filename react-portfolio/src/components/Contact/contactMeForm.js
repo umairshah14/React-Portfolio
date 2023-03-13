@@ -4,15 +4,15 @@ import Form from "react-bootstrap/Form";
 
 function ContactMeForm() {
   return (
-      <div style={{ width: "20rem" }}>
+      <div style={{ width: "30rem" }}>
         <Form>
-          <Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Group className="mb-3 center" controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
             <Form.Control type="email" placeholder="Enter email" />
           </Form.Group>
           <Form.Group>
             <Form.Label>Message</Form.Label>
-            <FloatingLabel controlId="floatingTextarea2">
+            <FloatingLabel controlId="floatingTextarea2" className="pb-3">
               <Form.Control
                 as="textarea"
                 placeholder="Leave a comment here"
