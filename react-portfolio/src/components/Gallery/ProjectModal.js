@@ -50,18 +50,18 @@ function ProjectModal(props) {
         <Container className="center">
           <Row>
             <Col xxl="12">
-              <Button
-                style={{ margin: "1rem" }}
-                href={props.githubRepo}
-              >
+              <Button style={{ margin: "1rem" }} href={props.githubRepo}>
                 <i className="fa-brands fa-github"></i>
                 <br></br>
                 Github Repo
               </Button>
               <Button style={{ margin: "1rem" }} href={props.deployed}>
-              <MDBIcon fas icon="mouse" />
-                            <br></br>
-                {props.deployed === "" ? "No Live Deployment" : "Live Deployment"}
+                <MDBIcon fas icon="mouse" />
+                <br></br>
+                {props.deployed === ""
+                  ? "No Live Deployment"
+                  : "Live Deployment"}
+          
               </Button>
             </Col>
           </Row>
