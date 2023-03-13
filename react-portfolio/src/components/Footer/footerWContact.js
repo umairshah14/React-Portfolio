@@ -9,16 +9,18 @@ import {
   MDBBtn,
 } from "mdb-react-ui-kit";
 
-export default function Footer() {
+export default function FooterAndContact() {
   return (
     <MDBFooter
       className="text-center text-white"
-      style={{ backgroundColor: "#f1f1f1" }}
+      style={{ backgroundColor: "black", display:"flex"}}
     >
-      <MDBContainer className="pt-4">
-        <section className="mb-4">
+      <MDBContainer className="pt-4" >
+        <section style={{justifyContent:"center", }}>
+      <h1 style={{color:"white"}} className="pt-2">Contact Me</h1>
 
-        <MDBBtn
+          <ContactMeForm ></ContactMeForm>
+          <MDBBtn
             rippleColor="dark"
             color="link"
             floating

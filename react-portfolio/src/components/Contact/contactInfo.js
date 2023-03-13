@@ -1,3 +1,5 @@
+import ContactMeForm from "./contactMeForm";
+
 function ContactInfo() {
   return (
     <div>
@@ -35,7 +37,9 @@ function ContactInfo() {
           </li>
         </ul>
       </div>
+ 
     </div>
+    
   );
 }
 

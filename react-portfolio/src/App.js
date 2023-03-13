@@ -10,13 +10,14 @@ import Contact from "./components/Contact";
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
+
 function App() {
   return (
     <Router>
       <div>
-        <Header />
+        <Header/>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />}/>
           <Route path="Gallery" element={<Gallery />} />
           <Route path="Contact" element={<Contact />} />
           <Route path="Project" element={<Project />} />
