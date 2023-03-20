@@ -7,7 +7,7 @@ This task helped me really grasp how to components, props and how to dybnamicall
 
 Below is a screenshot of what the project should look like when opened in the browser 
 
-![screenshot of the project](./src/ss.png)
+![screenshot of the project](./react-portfolio/src/ss.png)
 ## Usage
 
 To use and try out this project, first clone the repository from GitHub with the following link: https://github.com/umairshah14/React-Portfolio.git and then running npm i and npm start
