@@ -26,7 +26,7 @@ function ProjectModal(props) {
   return (
     <>
       {values.map((v, idx) => (
-        <Button key={idx} className="me-2 mb-2" onClick={() => handleShow(v)}>
+        <Button key={idx} className="me-2 mb-2" onClick={() => handleShow(v)} style={{backgroundColor:"#382c2c", marginLeft:"8px"}}>
           View project info
           {typeof v === "string" && `below ${v.split("-")[0]}`}
         </Button>
@@ -50,12 +50,12 @@ function ProjectModal(props) {
         <Container className="center">
           <Row>
             <Col xxl="12">
-              <Button style={{ margin: "1rem" }} href={props.githubRepo}>
+              <Button id="noOutline" style={{ margin: "1rem", backgroundColor:"#382c2c"}} href={props.githubRepo}>
                 <i className="fa-brands fa-github"></i>
                 <br></br>
                 Github Repo
               </Button>
-              <Button style={{ margin: "1rem" }} href={props.deployed}>
+              <Button id="noOutline"style={{ margin: "1rem", backgroundColor:"#382c2c"}} href={props.deployed}>
                 <MDBIcon fas icon="mouse" />
                 <br></br>
                 {props.deployed === ""

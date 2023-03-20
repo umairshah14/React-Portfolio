@@ -50,7 +50,7 @@ img {
 }
 .about-text p {
   font-size: 18px;
-  max-width: 450px;
+  max-width: 600px;
 }
 .about-text p mark {
   font-weight: 600;
@@ -135,4 +135,59 @@ mark {
 
 .center {
   text-align: center;
+}
+
+.portfolio-title{
+  width: 300px;
+}
+.nav-link.active2{
+  color: azure;
+  background-color: transparent;
+
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.dark-color{
+  color: black !important;
+  
+}
+
+.theme-color{
+  color: rgb(125, 125, 125) !important;
+}
+
+.about-text p mark {
+  font-weight: 600;
+  color: black
+}
+
+mark {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0 0 0 / 60%));
+  background-size: 100% 3px;
+  background-color: #f5f5f5 !important;
+  background-repeat: no-repeat;
+  background-position: 0 bottom;
+  padding: 0;
+  color: currentColor;
+}
+
+.about-section .counter .count {
+  font-weight: 700;
+  color: black;
+  margin: 0 0 5px;
+}
+
+.submitBtn {
+  background-color: rgb(131, 99, 99) !important;
+  box-shadow:"none" !important 
+}
+
+.submitBtn:hover {
+  background-color: rgb(176, 132, 132) !important;
+  box-shadow:"none" !important 
 }

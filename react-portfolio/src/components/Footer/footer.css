@@ -1,0 +1,9 @@
+.iconStyle{
+    color: white !important;
+    background-color: transparent !important;
+}
+
+.iconStyle:hover{
+    color: rgb(0, 0, 0) !important;
+    background-color: rgba(255, 255, 255, 0.191) !important;
+}

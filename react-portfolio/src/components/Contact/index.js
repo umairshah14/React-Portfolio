@@ -1,13 +1,11 @@
 import FooterAndContact from "../Footer/footerWContact";
-import ContactInfo from "./contactInfo";
 import Footer from "../Footer";
+import ContactMeForm from "./contactMeForm";
 
 function Contact() {
   return (
     <>
-      <ContactInfo></ContactInfo>
-
-      <FooterAndContact></FooterAndContact>
+    <ContactMeForm></ContactMeForm>
     </>
   );
 }

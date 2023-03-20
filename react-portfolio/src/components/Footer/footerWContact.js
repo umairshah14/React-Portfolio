@@ -1,8 +1,10 @@
 import React from "react";
-import ContactMeForm from "../Contact/contactMeForm";
+import Contact from "../Contact";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
+import "./footer.css";
+import "./cv.pdf";
 import {
   MDBFooter,
   MDBContainer,
@@ -12,22 +14,34 @@ import {
   MDBBtn,
 } from "mdb-react-ui-kit";
 
+
+
 export default function FooterAndContact() {
+
+
   return (
     <MDBFooter
       className="text-center text-white"
-      style={{ backgroundColor: "black", display: "flex" }}
+      style={{ backgroundColor: "rgb(56, 44, 44)", display: "flex" }}
     >
-      <MDBContainer className="pt-4">
-        <section style={{ justifyContent: "center" }}>
+      <MDBContainer
+        className="pt-4"
+        style={{
+          display: "flex",
+          alignContent: "center",
+          flexDirection: "column-reverse",
+          flexWrap: "wrap",
+        }}
+      >
+        <section style={{}}>
           <h1 style={{ color: "white" }} className="pt-2">
             Contact Me
           </h1>
 
           <Container className="center">
             <Row>
-              <Col xl="2">
-                <ContactMeForm ></ContactMeForm>
+              <Col xl="12">
+                <Contact></Contact>
               </Col>
             </Row>
           </Container>
@@ -39,10 +53,12 @@ export default function FooterAndContact() {
             floating
             size="lg"
             className="text-dark m-1"
-            href="#!"
+            id="iconStyle"
+            href="/cv.pdf"
             role="button"
+            download="Umair Shah CV"
           >
-            <MDBIcon fas className="fa-file-alt" />
+            <MDBIcon fas className="fa-file-alt iconStyle" />
           </MDBBtn>
           <MDBBtn
             rippleColor="dark"
@@ -53,7 +69,7 @@ export default function FooterAndContact() {
             href="#!"
             role="button"
           >
-            <MDBIcon fas className="fa-envelope" />
+            <MDBIcon fas className="fa-envelope iconStyle" />
           </MDBBtn>
           <MDBBtn
             rippleColor="dark"
@@ -64,7 +80,7 @@ export default function FooterAndContact() {
             href="#!"
             role="button"
           >
-            <MDBIcon fab className="fa-linkedin" />
+            <MDBIcon fab className="fa-linkedin iconStyle" />
           </MDBBtn>
           <MDBBtn
             rippleColor="dark"
@@ -75,7 +91,7 @@ export default function FooterAndContact() {
             href="#!"
             role="button"
           >
-            <MDBIcon fab className="fa-github" />
+            <MDBIcon fab className="fa-github iconStyle" />
           </MDBBtn>
         </section>
       </MDBContainer>

@@ -8,9 +8,9 @@ import Container from 'react-bootstrap/Container';
 const Gallery = () => {
   return (
     <div className="pt-3">
-      <h1 className="center" style={{textDecoration:"underline", fontWeight:"bold"}}>PROJECTS</h1>
+      <h1 className="center" style={{textDecoration:"underline", fontWeight:"bold", color:"black"}}>PROJECTS</h1>
       <Container>
-        <Row >
+        <Row>
           {data.map((project) => {
             return (
               <Project

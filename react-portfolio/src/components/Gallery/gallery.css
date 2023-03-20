@@ -1,0 +1,8 @@
+/* .projectInfo-btn{
+    background-color:"#382c2c"
+     margin-left:"8px"
+} */
+
+#noOutline{
+    box-shadow: none !important;
+}

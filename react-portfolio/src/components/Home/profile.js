@@ -64,7 +64,7 @@ function Me() {
             </div>
             <div className="col-4 col-lg-4">
               <div className="count-data text-center">
-                <h6 className="count h2" data-to="850" data-speed="850">
+                <h6 className="count h2" data-to="850" data-speed="850" style={{fontSize:"30px"}}>
                   ∞
                 </h6>
                 <p className="m-0px font-w-600">Potential</p>
