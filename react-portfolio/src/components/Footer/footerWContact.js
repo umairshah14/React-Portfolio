@@ -68,7 +68,7 @@ export default function FooterAndContact() {
             className="text-dark m-1"
             id="iconStyle"
             role="button"
-            onClick={() => {handleDownload('./cv.pdf', 'umairCV.pdf')}}
+            onClick={() => {handleDownload('./cv', 'umairCV.pdf')}}
           >
             <MDBIcon fas className="fa-file-alt iconStyle" />
           </MDBBtn>
