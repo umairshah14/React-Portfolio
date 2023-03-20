@@ -42,7 +42,7 @@ function ProjectModal(props) {
         </Modal.Header>
         <Card.Img
           className="img-fluid"
-          style={{ width: "58rem", alignSelf: "center" }}
+          style={{ width: "55rem", alignSelf: "center", height: "auto"}}
           variant="top"
           src={props.image}
         />
