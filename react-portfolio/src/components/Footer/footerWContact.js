@@ -14,11 +14,24 @@ import {
   MDBBtn,
 } from "mdb-react-ui-kit";
 
+import axios from 'axios'
+import fileDownload from 'js-file-download'
+ 
+
+
 
 
 export default function FooterAndContact() {
+  
 
-
+  const handleDownload = (url, filename) => {
+    axios.get(url, {
+      responseType: 'blob',
+    })
+    .then((res) => {
+      fileDownload(res.data, filename)
+    })
+  }
   return (
     <MDBFooter
       className="text-center text-white"
@@ -54,9 +67,8 @@ export default function FooterAndContact() {
             size="lg"
             className="text-dark m-1"
             id="iconStyle"
-            href="/cv.pdf"
             role="button"
-            download="Umair Shah CV"
+            onClick={() => {handleDownload('./cv.pdf', 'umairCV.pdf')}}
           >
             <MDBIcon fas className="fa-file-alt iconStyle" />
           </MDBBtn>
