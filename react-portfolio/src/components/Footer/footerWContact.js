@@ -23,7 +23,7 @@ import fileDownload from 'js-file-download'
 
 export default function FooterAndContact() {
   
-
+// function to download CV
   const handleDownload = (url, filename) => {
     axios.get(url, {
       responseType: 'blob',
@@ -60,6 +60,8 @@ export default function FooterAndContact() {
           </Container>
 
           {/* SOCIAL LINKS */}
+
+          {/* CV BUTTON */}
           <MDBBtn
             rippleColor="dark"
             color="link"
@@ -68,39 +70,45 @@ export default function FooterAndContact() {
             className="text-dark m-1"
             id="iconStyle"
             role="button"
-            onClick={() => {handleDownload('./cv', 'umairCV.pdf')}}
+            onClick={() => {handleDownload('./cv.pdf', 'Umair-Shah-CV.pdf')}}
           >
             <MDBIcon fas className="fa-file-alt iconStyle" />
           </MDBBtn>
+
+          {/* EMAIL BUTTON */}
           <MDBBtn
             rippleColor="dark"
             color="link"
             floating
             size="lg"
             className="text-dark m-1"
-            href="#!"
+            href="mailto:umairshah14@hotmail.com"
             role="button"
           >
             <MDBIcon fas className="fa-envelope iconStyle" />
           </MDBBtn>
+
+          {/* LINKEDIN BUTTON */}
           <MDBBtn
             rippleColor="dark"
             color="link"
             floating
             size="lg"
             className="text-dark m-1"
-            href="#!"
+            href="https://www.linkedin.com/in/umair-shah-/"
             role="button"
           >
             <MDBIcon fab className="fa-linkedin iconStyle" />
           </MDBBtn>
+
+          {/* GITHUB BUTTON */}
           <MDBBtn
             rippleColor="dark"
             color="link"
             floating
             size="lg"
             className="text-dark m-1"
-            href="#!"
+            href="https://github.com/umairshah14"
             role="button"
           >
             <MDBIcon fab className="fa-github iconStyle" />
