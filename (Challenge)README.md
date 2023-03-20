@@ -27,11 +27,11 @@ the default bootstrap theme or an unstyled HTML site.
 * Your portfolio **must contain** the following information:
   * [ ] Your name - HOME PAGE
   * [ ] Links to your:
-    * [ ] GitHub Profile - CONTACT ME
-    * [ ] LinkedIn Page - CONTACT ME
-    * [ ] Email Address - CONTACT ME
-    * [ ] Phone Number - (optional) - CONTACT ME
-    * [ ] PDF version of your resume - CONTACT ME
+    * [ ] GitHub Profile - 
+    * [ ] LinkedIn Page -
+    * [ ] Email Address - 
+    * [ ] Phone Number - (optional) - 
+    * [ ] PDF version of your resume - 
       * Your resume **must** contain up-to-date projects and professional experience
     * [ ] A list of projects (Challenges or Projects). For each project, make sure you have the following: -PROJECT
       * [ ] Project title
@@ -47,7 +47,7 @@ the default bootstrap theme or an unstyled HTML site.
   4. [OK] Home
   5. [OK] Project Gallery
   6. [OK] Project
-  7. [ ] Contact
+  7. [ OK] Contact
 
 ### Required Component Content
 * [] App:
@@ -67,8 +67,8 @@ the default bootstrap theme or an unstyled HTML site.
      * [OK] Link to the GitHub repository
      * [OK] GIF or screenshot of the deployed application
 * [ ] Contact:
-  * [ ] Must have contact information
-  * [ ] Have a contact form for handling events
+  * [OK] Must have contact information
+  * [OK] Have a contact form for handling events
 * [ ] Home:
   * This should be a welcome landing page that contains:
      * [OK] Your Name

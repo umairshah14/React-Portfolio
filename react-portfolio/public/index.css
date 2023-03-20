@@ -14,7 +14,7 @@ body{
     margin-top:20px;
 }
 .section {
-    padding-top: 50px;
+    padding-top: 1.5rem;
     position: relative;
 }
 .gray-bg {
@@ -190,4 +190,15 @@ mark {
 .submitBtn:hover {
   background-color: rgb(176, 132, 132) !important;
   box-shadow:"none" !important 
+}
+
+html, body {
+  scroll-behavior: smooth;
+  scroll-snap-type: y; 
+}
+  
+@media (max-width: 800px) {
+  html, body {
+  overflow-x: hidden;
+  }
 }

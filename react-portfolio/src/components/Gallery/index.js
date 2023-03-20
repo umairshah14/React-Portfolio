@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 
 const Gallery = () => {
   return (
-    <div className="pt-3">
+    <div className="pt-3 gray-bg">
       <h1 className="center" style={{textDecoration:"underline", fontWeight:"bold", color:"black"}}>PROJECTS</h1>
       <Container>
         <Row>
