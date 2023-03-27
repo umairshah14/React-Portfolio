@@ -1,13 +1,14 @@
 [
     {
-        "id" : 2,
-        "name" : "Weather Forecast Webapp",
-        "description" : "A web app that returns weather information and a 5 day forecast from the Openweather API",
-        "detailedDescription" : "This is a weather forecast website. When you type in a city, you receive information for the current day forecast as well as the weather forecast for the next five days. If the city is not recognised, then nothing shows up. Every time a city is searched a button is generated on the side also. All information is pulled from the OpenWeather API",
-        "deployed" : "https://umairshah14.github.io/Weather-Dashboard/",
-        "githubRepo" : "https://github.com/umairshah14/Weather-Dashboard",
-        "image" : "https://raw.githubusercontent.com/umairshah14/Weather-Dashboard/main/Screenshot%202023-01-31%20at%2022.40.35.png"
+        "id" : 6,
+        "name" : "FITMAX",
+        "description" : "A webapp which aims to display the most effective workout videos for each body part.",
+        "detailedDescription" : "In FitMax you can: Calculate your Body Mass Index, Calculate your calorie based on your fitness goal, Calculate your Body Fat Percentage &See the most effective workouts for a specific body part.",
+        "deployed" : "https://earnest-brioche-0d496b.netlify.app/",
+        "githubRepo" : "https://github.com/umairshah14/FitMax",
+        "image" : "https://i.ibb.co/GChQ077/Screenshot-2023-03-27-at-18-08-01.png"
     },
+
     {
         "id" : 3,
         "name" : "Premier League Table",
@@ -16,6 +17,15 @@
         "deployed" : "https://umairshah14.github.io/Premier-League-Info/",
         "githubRepo" : "https://github.com/umairshah14/Premier-League-Info",
         "image" : "https://raw.githubusercontent.com/umairshah14/Premier-League-Info/main/assets/images/Screenshot%202023-02-07%20at%2018.28.54.png"
+    },
+    {
+        "id" : 2,
+        "name" : "Weather Forecast Webapp",
+        "description" : "A web app that returns weather information and a 5 day forecast from the Openweather API",
+        "detailedDescription" : "This is a weather forecast website. When you type in a city, you receive information for the current day forecast as well as the weather forecast for the next five days. If the city is not recognised, then nothing shows up. Every time a city is searched a button is generated on the side also. All information is pulled from the OpenWeather API",
+        "deployed" : "https://umairshah14.github.io/Weather-Dashboard/",
+        "githubRepo" : "https://github.com/umairshah14/Weather-Dashboard",
+        "image" : "https://raw.githubusercontent.com/umairshah14/Weather-Dashboard/main/Screenshot%202023-01-31%20at%2022.40.35.png"
     },
     {
         "id" : 4,
@@ -35,15 +45,7 @@
         "githubRepo" : "https://github.com/umairshah14/Password-Generator",
         "image" : "https://raw.githubusercontent.com/umairshah14/Password-Generator/main/Screenshot%202023-01-11%20at%2019.54.33.png"
     },
-    {
-        "id" : 6,
-        "name" : "Work Day Scheduler",
-        "description" : "A website that lets you plan your work day from 9-5, add and remove tasks for each work hour",
-        "detailedDescription" : "This is a Workday Scheduler which presents all the hours of a working day from 9 to 5 and then allows the user to input text into each time slot and save it in order to keep a schedule of their tasks. Depending on the time of day, the slots will either appear as grey, red or green indicating that the timeslot has either passed, is the current hour you're in right now or that the hour is in the future.",
-        "deployed" : "https://umairshah14.github.io/Daily-Planner-App/",
-        "githubRepo" : "https://github.com/umairshah14/Daily-Planner-App",
-        "image" : "https://raw.githubusercontent.com/umairshah14/Daily-Planner-App/main/assets/images/Screenshot%202023-01-23%20at%2002.52.29.png"
-    },
+
     {
         "id" : 7,
         "name" : "README Generator",
