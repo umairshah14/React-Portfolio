@@ -4,7 +4,7 @@
         "name" : "FITMAX",
         "description" : "A webapp which aims to display the most effective workout videos for each body part.",
         "detailedDescription" : "In FitMax you can: Calculate your Body Mass Index, Calculate your calorie based on your fitness goal, Calculate your Body Fat Percentage &See the most effective workouts for a specific body part.",
-        "deployed" : "https://earnest-brioche-0d496b.netlify.app/",
+        "deployed" : "https://peppy-kulfi-adb9ba.netlify.app/",
         "githubRepo" : "https://github.com/umairshah14/FitMax",
         "image" : "https://i.ibb.co/GChQ077/Screenshot-2023-03-27-at-18-08-01.png"
     },
