@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { HashRouter  as Router,Routes,Route} from "react-router-dom";
+import {Routes,Route} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./components/Header";
 import Home from "./components/Home";
@@ -13,7 +13,6 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function App() {
   return (
-    <Router>
       <div>
         <Header/>
         <Routes>
@@ -23,7 +22,6 @@ function App() {
           <Route path="Project" element={<Project />} />
         </Routes>
       </div>
-    </Router>
   );
 }
 
