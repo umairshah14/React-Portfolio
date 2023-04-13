@@ -1,4 +1,4 @@
-import me from "./images/me.png";
+import memoji from "./images/memoji.png";
 import ListGroup from "react-bootstrap/ListGroup";
 import Skills from "./skills";
 function Me() {
@@ -19,27 +19,12 @@ function Me() {
                 shift into Tech, and well, here i am. Here's some fun facts
                 about me you probably didn't know:
               </p>
-
-              <ListGroup className="col-9">
-                <ListGroup.Item>
-                  <i className="fa-solid fa-plane"></i> I love to travel, i try
-                  to visit at least 4-5 countries every year
-                </ListGroup.Item>
-                <ListGroup.Item>
-                  <i className="fa-solid fa-laptop-code"></i> I'm a tech
-                  enthusiast always looking out for the latest technologies
-                </ListGroup.Item>
-                <ListGroup.Item>
-                  <i className="fa-solid fa-headphones"></i> I have a 2:1 in BA Music
-                  Production and Sound Engineering
-                </ListGroup.Item>
-              </ListGroup>
             </div>
             <br />
           </div>
           <div className="col-lg-5">
             <div className="about-avatar">
-              <img src={me} style={{ borderRadius: "50%" }} title="" alt="" />
+              <img src={memoji} style={{ borderRadius: "50%" }} title="" alt="" />
             </div>
           </div>
         </div>
