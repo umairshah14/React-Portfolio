@@ -45,17 +45,11 @@ export default function FooterAndContact() {
         }}
       >
         <section style={{}}>
-          <h1 style={{ color: "white" }} className="pt-2">
+          <h5 style={{ color: "white" }} className="pt-2">
             Contact Me
-          </h1>
+          </h5>
 
-          <Container className="center">
-            <Row>
-              <Col xl="12">
-                <Contact></Contact>
-              </Col>
-            </Row>
-          </Container>
+
 
           {/* SOCIAL LINKS */}
 
