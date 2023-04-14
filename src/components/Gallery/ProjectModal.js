@@ -6,12 +6,9 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import {
-  MDBFooter,
-  MDBContainer,
-  MDBCol,
-  MDBRow,
-  MDBIcon,
-  MDBBtn,
+ 
+  MDBIcon
+  
 } from "mdb-react-ui-kit";
 
 function ProjectModal(props) {

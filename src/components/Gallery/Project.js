@@ -1,5 +1,5 @@
 import Card from "react-bootstrap/Card";
-import React, { useState } from "react";
+import React from "react";
 import Col from 'react-bootstrap/Col';
 import "./gallery.css"
 

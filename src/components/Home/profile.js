@@ -1,5 +1,4 @@
 import memoji from "./images/memoji.png";
-import ListGroup from "react-bootstrap/ListGroup";
 import Skills from "./skills";
 function Me() {
   return (
